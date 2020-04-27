@@ -1,7 +1,7 @@
 {
   "name": "react-scripts-cli-demo",
   "version": "2.0.0",
-  "description": "基于React-Scripts制作的脚手架",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,19 +9,15 @@
   "bin": {
     "react@cli": "lib/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coderLee200324/React-Scripts-Cli-Demo.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/coderLee200324/React-Scripts-Cli-Demo/issues"
-  },
-  "homepage": "https://github.com/coderLee200324/React-Scripts-Cli-Demo#readme",
   "dependencies": {
-    "commander": "^5.0.0"
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
